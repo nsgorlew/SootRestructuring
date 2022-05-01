@@ -1,0 +1,47 @@
+Log file for restructuring soot aggregate
+
+Parameters used:
+Adhesion Morse Potential Maximum Force Fmax= 1.00e-09 N
+Adhesion Morse Potential Maximum Force Distance d_0 = 2.00e-09 m
+Coating Morse Potential Maximum Force Fmax= 1.00e-10 N
+Coating Morse Potential Maximum Force Distance d_0 = 1.00e-08 m
+Adhesion Morse Potential Well width a = 3.47e+08 m^-1
+Adhesion Morse Potential Dissociation Energy De = 5.77e-18 J
+Mass of one monomer = 2.034e-19 kg
+Parameters below are non-dimensionalized using morse paramters for adhesion force (De and a) and mass of monomer
+Time step = 0.093
+Viscous Force Coefficient b (=6*pi*mu*r) = 3.00 
+Coating Morse Potential Well Width a = 0.20 
+Coating Morse Potential Dissociation Energy De = 0.50
+Morse Potential changes as 0.10 * radius.
+Draw rate = 1 in every 1 time steps
+Margin for visualization = 3.47
+
+Unstructured Aggregate Parameters:
+Number of monomers = 20
+Fractal Dimension = 1.780
+Prefactor = 1.300
+Initial Morse Energy = -20.23
+
+Convergence criteria used:
+RMS Force Threshold = 9.70e-04
+Maximum Force Threshold = 9.70e-04
+RMS Discplacement Threshold = 4.85e-04
+Maximum Displacement Threshold = 4.85e-04
+
+Number of Iterations = 13533
+Converged = true
+
+Parameters for Final aggregate:
+Fractal Dimension = 2.452
+RMS Force = 8.05e-04
+Maximum Force = 9.70e-04
+RMS Displacement = 2.52e-05
+Maximum Displacement = 3.04e-05
+Relative Energy = -1.84
+
+Configurations were also saved at the following Df:
+2.100
+2.400
+
+Run time = 0.1 minutes
